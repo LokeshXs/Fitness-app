@@ -1,7 +1,7 @@
 .heroSection {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url("../../assets/background.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url("../../assets/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -235,11 +235,11 @@
 @media(max-width:41em){
   .heroSection h1 {
     color: #fff;
-    font-size: 6rem;
+    font-size: 3rem;
     z-index: 10;
     position: absolute;
-    bottom: 35rem;
-    left: 2rem;
+    bottom: 23rem;
+    left: 6rem;
     color: var(--web-orange);
     letter-spacing: 1.2rem;
   }
@@ -258,7 +258,7 @@
   .heroSectionText {
     position: absolute;
     left: 6rem;
-    bottom: 25rem;
+    bottom: 12rem;
     z-index: 15;
   }
 
@@ -279,6 +279,15 @@
     font-weight: 800;
     color: var(--web-orange);
     opacity: 0.5;
+  }
+  .heroSectionTextVertical-second {
+    transform: translateX(0rem);
+    font-size: 1.6rem;
+  }
+  
+  .heroSectionTextVertical-third {
+    transform: translateX(0rem);
+    letter-spacing: 5px;
   }
 
 }
