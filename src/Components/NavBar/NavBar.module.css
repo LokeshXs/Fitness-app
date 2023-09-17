@@ -1,0 +1,150 @@
+.navBar_Container{
+  top: 0;
+  left: 0;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem;
+  z-index: 20;
+  transition: all 0.3s ease-in-out; 
+ 
+}
+.navBar_Container.stickyNavBar{
+  position: fixed;
+  padding: 0 12rem;
+  
+}
+.navBarLinks_Container{
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  border: 2px  solid var(--web-orange);
+  padding: 2rem 5rem;
+  border-radius: 5rem;
+
+}
+
+.navBar_Container.stickyNavBar .navBarLinks_Container{
+  background-color: var(--secondary-color);
+  box-shadow: 0rem 1.2rem 3.2rem 0 rgba(0, 0, 0, 0.1);
+}
+.navBarLink a{
+  text-decoration: none;
+color: var(--web-orange);
+font-size: 1.6rem;
+font-weight: 600;
+text-transform: uppercase;
+padding: 0.5rem 1rem; 
+transition: all 0.3s;
+}
+
+.navBarLink a:hover{
+  background-color: var(--web-orange);
+color: var(--secondary-color);
+border-radius: 5rem;
+}
+
+.appDownload-Btn{
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1.5rem 2rem;
+  background-color: var(--web-orange);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.appDownload-Btn:hover{
+  transform: translateY(-2px);
+
+}
+
+.navBar_Container.stickyNavBar .appDownload-Btn{
+  transition: none;
+  visibility: hidden;
+}
+
+
+
+.logo{
+  width: 14rem;
+}
+
+.navBar_Container.stickyNavBar .logo{
+  visibility: hidden;
+}
+
+/* RESPONSIVENESS */
+@media(max-width: 93em){
+  .navBarLink a{
+  text-decoration: none;
+  color: var(--web-orange);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem; 
+  transition: all 0.3s;
+  }
+
+  .appDownload-Btn{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem 2rem;
+    background-color: var(--web-orange);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .navBar_Container{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    z-index: 9;
+    transition: all 0.3s ease-in-out; 
+  }
+}
+
+
+@media(max-width:72em){
+  .navBarLinks_Container{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    border: 2px  solid var(--web-orange);
+    padding: 2rem 2rem;
+    border-radius: 5rem;
+  
+  }
+
+  .navBar_Container{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    z-index: 9;
+    transition: all 0.3s ease-in-out; 
+  }
+  .logo{
+    width: 8rem;
+  }
+  .navBar_Container.stickyNavBar{
+    position: fixed;
+    padding: 0 2rem;
+    
+  }
+}
+

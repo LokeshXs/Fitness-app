@@ -1,0 +1,10 @@
+.bodyPartIcon{
+  width: 8rem;
+}
+
+@media(max-width:41em){
+
+  .bodyPartIcon{
+    width: 6rem;
+  }
+}

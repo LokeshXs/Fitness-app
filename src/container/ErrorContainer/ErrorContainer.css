@@ -1,0 +1,133 @@
+/*======================
+    404 page
+=======================*/
+
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+.four_zero_four_bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vw;
+}
+
+.four_zero_four_bg img{
+ height: 100%;
+}
+
+
+.four_zero_four_bg h1 {
+  font-size: 6rem;
+}
+
+
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: var(--text-color);
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contant_box_404 h3{
+
+  font-size: 2rem;
+}
+
+.contant_box_404 p{
+  font-size: 2.2rem;
+  margin-top: 2rem;
+}
+
+
+
+
+@media(max-width:49em){
+  .contant_box_404 h3{
+
+      font-size: 1.6rem;
+  }
+  .contant_box_404 p{
+      font-size: 1.8rem;
+      margin-top: 2rem;
+  }
+  
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: var(--text-color);
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 1rem;
+}
+.four_zero_four_bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vw;
+}
+}
+
+
+
+@media (max-width:36em){
+  .navContainer img{
+    width: 4rem;
+    cursor: pointer;
+    display: block;
+    object-fit: contain;
+  }
+
+  .navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .navContainerSticky img{
+    display: none;
+  }
+  .four_zero_four_bg {
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vw;
+  }
+}

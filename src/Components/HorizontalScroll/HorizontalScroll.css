@@ -1,0 +1,12 @@
+.mySwiper{
+  padding: 40px;
+  margin: 4rem 0;
+}
+
+@media(max-width:41em){
+
+  .mySwiper{
+    padding: 40px 20px;
+    margin: 4rem 0;
+  }
+}

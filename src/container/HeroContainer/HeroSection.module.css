@@ -1,0 +1,284 @@
+.heroSection {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroSection h1 {
+  color: #fff;
+  font-size: 12rem;
+  z-index: 10;
+  position: absolute;
+  bottom: 40rem;
+  left: 10rem;
+  color: var(--web-orange);
+  letter-spacing: 2rem;
+}
+
+
+.heroSectionText {
+  position: absolute;
+  left: 20rem;
+  bottom: 28rem;
+  z-index: 15;
+}
+
+.heroSectionText p {
+  color: #fff;
+  line-height: 2;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  font-weight: 600;
+}
+
+#colonText {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.heroSectionTextVertical {
+  font-size: 2.2rem;
+  color: #fff;
+  position: absolute;
+  top: 30rem;
+  right: 0rem;
+  transform: rotate(90deg);
+  font-weight: 500;
+
+}
+
+.heroSectionTextVertical-first {
+  letter-spacing: 5px;
+}
+
+.heroSectionTextVertical-second {
+  transform: translateX(20rem);
+  font-size: 1.6rem;
+}
+
+.heroSectionTextVertical-third {
+  transform: translateX(20rem);
+  letter-spacing: 5px;
+}
+
+.heroSection-exercise-text {
+  font-size: 18rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  font-weight: 800;
+  color: var(--web-orange);
+  opacity: 0.5;
+}
+
+
+
+/* RESPONSIVENESS */
+@media(max-width: 93em){
+  .heroSection h1 {
+    color: #fff;
+    font-size: 8rem;
+    z-index: 10;
+    position: absolute;
+    bottom: 40rem;
+    left: 8rem;
+    color: var(--web-orange);
+    letter-spacing: 2rem;
+  }
+
+  .heroSectionTextVertical {
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+  
+  }
+
+  .heroSectionText {
+    position: absolute;
+    left: 15rem;
+    bottom: 28rem;
+    z-index: 15;
+  }
+  .heroSectionText p {
+    color: #fff;
+    line-height: 2;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: 600;
+  }
+
+  .heroSection-exercise-text {
+    font-size: 15rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    font-weight: 800;
+    color: var(--web-orange);
+    opacity: 0.5;
+  }
+}
+
+
+@media(max-width:72em){
+  .heroSection h1 {
+    color: #fff;
+    font-size: 6rem;
+    z-index: 10;
+    position: absolute;
+    bottom: 35.5rem;
+    left: 4rem;
+    color: var(--web-orange);
+    letter-spacing: 2rem;
+  }
+
+  .heroSectionTextVertical {
+    font-size: 1.4rem;
+    color: #fff;
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+  
+  }
+
+  .heroSectionText {
+    position: absolute;
+    left: 10rem;
+    bottom: 25rem;
+    z-index: 15;
+  }
+
+  .heroSectionText p {
+    color: #fff;
+    line-height: 2;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: 600;
+  }
+
+  .heroSection-exercise-text {
+    font-size: 12rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    font-weight: 800;
+    color: var(--web-orange);
+    opacity: 0.5;
+  }
+}
+
+
+@media(max-width:41em){
+  .heroSection h1 {
+    color: #fff;
+    font-size: 6rem;
+    z-index: 10;
+    position: absolute;
+    bottom: 42rem;
+    left: 2rem;
+    color: var(--web-orange);
+    letter-spacing: 1.2rem;
+  }
+
+  .heroSectionTextVertical {
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    top: 30rem;
+    right: 0rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+  
+  }
+
+  .heroSectionText {
+    position: absolute;
+    left: 8rem;
+    bottom: 31rem;
+    z-index: 15;
+  }
+
+  .heroSectionText p {
+    color: #fff;
+    line-height: 2;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: 600;
+  }
+
+  .heroSection-exercise-text {
+    font-size: 10rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    font-weight: 800;
+    color: var(--web-orange);
+    opacity: 0.5;
+  }
+}
+
+@media(max-width:41em){
+  .heroSection h1 {
+    color: #fff;
+    font-size: 6rem;
+    z-index: 10;
+    position: absolute;
+    bottom: 35rem;
+    left: 2rem;
+    color: var(--web-orange);
+    letter-spacing: 1.2rem;
+  }
+
+  .heroSectionTextVertical {
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    top: 15rem;
+    right: 0rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+  
+  }
+
+  .heroSectionText {
+    position: absolute;
+    left: 6rem;
+    bottom: 25rem;
+    z-index: 15;
+  }
+
+  .heroSectionText p {
+    color: #fff;
+    line-height: 2;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-weight: 600;
+  }
+
+  .heroSection-exercise-text {
+    font-size: 8rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    font-weight: 800;
+    color: var(--web-orange);
+    opacity: 0.5;
+  }
+
+}

@@ -1,0 +1,18 @@
+.exerciseDetail-img {
+  
+  margin-top: -10rem;
+  border-radius: 2rem;
+  width: 30vw;
+ 
+}
+
+@media(max-width:55em){
+  .exerciseDetail-img {
+  
+    margin-top: -10rem;
+    border-radius: 2rem;
+    width: 60vw;
+   
+  }
+}
+
