@@ -16,8 +16,8 @@ const MobileDrawer = ({ isOpen, closeMobileDrawer }) => {
       </div>
 
       <ul className={styles.navLinks}>
-        <li className={styles.navLink}><Link to="/">Home</Link></li>
-        <li className={styles.navLink}><Link to="/#exercises">Exercises</Link></li>
+        <li className={styles.navLink} onClick={closeMobileDrawer}><Link to="/">Home</Link></li>
+        <li className={styles.navLink} onClick={closeMobileDrawer}><Link to="#exercises">Exercises</Link></li>
 
       </ul>
     </div>

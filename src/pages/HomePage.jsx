@@ -11,7 +11,7 @@ const HomePage = ({intersectionRef}) => {
     <HeroSection intersectionRef={intersectionRef} />
     <SearchExercises  />
     <ExercisesSection />
-    <FeatureSection />
+    {/* <FeatureSection /> */}
     </>
   )
 }

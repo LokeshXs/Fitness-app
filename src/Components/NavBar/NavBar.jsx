@@ -33,7 +33,7 @@ const NavBar = ({ inView }) => {
           </IconButton> :
             <ul className={styles['navBarLinks_Container']}>
               <li className={styles.navBarLink}><Link to="/">Home</Link></li>
-              <li className={styles.navBarLink}><a href="/#exercises">Exercises</a></li>
+              <li className={styles.navBarLink}><a href="#exercises">Exercises</a></li>
               
             </ul>
         }
